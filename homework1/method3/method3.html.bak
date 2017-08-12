@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+   <style>
+   *{padding:0;margin:0;}
+    #box1,#box3{
+		height:200px;
+		width:20%;
+		background-color:pink;
+		}
+	#box1,#box3{
+		float:right;
+	}
+	
+	#box2{
+		height:200px;
+		width:60%;
+		float:left;
+		background:#abcdef;
+	}
+	
+  </style>
+ </head>
+ <body>
+	<div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+ </body>
+</html>
